@@ -38,16 +38,16 @@ const TemplateCard = ({ templates, isCustom }) => {
           <main className="col-lg-6 col-xl-4 col-md-6 mb-4" key={index}>
             <div className="card shadow h-100">
               <header className="card-header bg-color text-white text-center py-3">
-                <h6 className="m-0 font-weight-bold">{template.title}</h6>
+                <h6 className="m-0 font-weight-bold">{template?.title}</h6>
               </header>
               <div className="card-body ddd">
                 <div className="border-bottom py-2 px-1">
                   <strong>Subject:</strong>
-                  <span >&nbsp; {template.subject}</span>
+                  <span >&nbsp; {template?.subject}</span>
                 </div>
                 <div >
                   <strong>Content:</strong> &nbsp;
-                  <span > {template.content}</span>
+                  <span > {template?.content}</span>
                 </div>
               </div>
               <div className="card-footer d-flex justify-content-around  bg-gray-200 px-0">
@@ -61,7 +61,7 @@ const TemplateCard = ({ templates, isCustom }) => {
                   copy
                 </Link>
                 <Link
-                  to={`/update-template/${template._id}`}
+                  to={`/update-template/${template?._id}`}
                   className={`btn btn-warning ${isCustom ? "disabled" : ""}`}
                   disabled={isCustom}
                 >
@@ -70,7 +70,7 @@ const TemplateCard = ({ templates, isCustom }) => {
                 <button
                   className={`btn btn-danger ${isCustom ? "disabled" : ""}`}
                   disabled={isCustom}
-                  onClick={() => handleDeleteOrder(template._id)}
+                  onClick={() => handleDeleteOrder(template?._id)}
                 >
                   delete
                 </button>

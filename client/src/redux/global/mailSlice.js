@@ -63,7 +63,7 @@ const mailSlice = createSlice({
       })
       .addCase(fetchMails.fulfilled, (state, action) => {
         state.error = false;
-        state.mails = action.payload.reverse();
+        state.mails = action.payload;
         state.loading = false;
       })
       .addCase(fetchMails.rejected, (state, action) => {
