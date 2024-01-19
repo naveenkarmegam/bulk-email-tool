@@ -4,7 +4,6 @@ const dotenv = require("dotenv").config();
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
-const fs = require("fs");
 const path = require("path");
 
 const app = express();
@@ -32,13 +31,7 @@ const mailRoute = require("./routes/mail.route.js");
 const recipientRoute = require("./routes/recipient.route.js");
 const templateRoute = require('./routes/template.route.js')
 
-//logs
-const accessLogStream = fs.createWriteStream(
-  path.join(__dirname, "/log", "access.log")
-);
 
-//middlewares
-app.use(morgan("combined", { stream: accessLogStream }));
 app.use(morgan("tiny"));
 app.use(bodyParser.json());
 app.use(cookieParser());
@@ -48,10 +41,7 @@ app.use(
   })
 );
 
-//server checking
-app.get("/api", function (req, res) {
-  res.send("hello, world!");
-});
+
 
 //routing
 app.use("/api/auth", authRoute);
