@@ -14,7 +14,7 @@ const DB_URI = process.env.DB_URI;
 //database
 const connectDatabase = require("./database/database.js");
 
-const __dirname = path.resolve();
+var __dirname = path.resolve();
 app.use(express.static(path.join(__dirname,'client/dist')))
 
 
