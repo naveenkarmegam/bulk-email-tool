@@ -1,0 +1,35 @@
+.bg-grey {
+  width: Fill (232px);
+  height: Hug (48px);
+  padding: 12px;
+  border-radius: 8px;
+  color:  #ffffff !important;
+}
+.bg-grey span{
+  color:  #e5e7eb !important;
+}
+nav ul .bg-grey-h:hover{
+  background-color:  #99a0ad ;
+  border-radius: 8px;
+}
+.bg-grey:hover{
+  background-color:  var(--bg-color) !important;
+}
+.bg-blue {
+  background-color: #357bf5!important;
+}
+
+/* .nav-gradient {
+  background: #0e5be1;
+} */
+nav .btn-link:hover {
+  background: #ddd !important;
+  color: #37517e !important;
+}
+nav .btn-link:hover i {
+  color: #37517e !important;
+}
+
+.border-left-blue{
+  color: #37517e !important;
+}

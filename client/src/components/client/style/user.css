@@ -1,0 +1,33 @@
+.user-body {
+  background-color: #db551b;
+}
+.user-body .user-heading h1 {
+  color: var(--orange-head);
+  font-weight: 700;
+  font-size: 3em;
+}
+.user-body .showPass {
+  position: relative;
+}
+.user-body .showPass .showPassIcon {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+.user-body {
+  background: rgba(40, 58, 90, 0.9);
+}
+.user .btn-google {
+  background-color: #db4437;
+}
+.user .btn-google:hover {
+  background-color: #e13a2b;
+}
+.user .btn-facebook {
+  background-color: #1877f2;
+}
+.user .btn-facebook:hover {
+  background-color: #064ba6;
+}

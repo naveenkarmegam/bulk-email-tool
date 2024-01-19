@@ -1,0 +1,201 @@
+
+.bg-color{
+  background-color: var(--bg-color) !important;
+  fill: var(--bg-color);
+}
+
+.text-color{
+  color: var(--bg-color) !important;
+}
+
+.btn-bg-color-1{
+  color: #b01414;
+}
+.btn-text-color-1{
+  color: #b01414;
+}
+
+.border-left-color {
+  border-left: 4px solid var(--bg-color) !important;
+}
+
+
+.profile-img-div span {
+  position: relative;
+  bottom: 20px;
+  margin: 0 auto;
+}
+.img-responsive {
+  margin: 0 auto;
+}
+.profile-img-div span .pencil-icon {
+  position: absolute;
+  bottom:60%;
+  left: 60%;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.trans-close{
+  transition: all .5s ease-in-out;
+}
+
+
+.core .custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  border: 2px solid var(--bg-color);
+}
+
+.core .custom-table th{
+  padding: 15px; 
+  border-bottom: 1px solid var(--bg-color);
+}
+.core .custom-table tbody tr td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid var(--bg-color);
+  
+}
+.core .custom-table thead{
+  padding: 15px;
+  text-align: center;
+  background-color: var(--bg-color);
+}
+
+.core .custom-table thead {
+  color: #ffffff;
+}
+
+.core .custom-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.action-buttons button {
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.action-buttons button:hover {
+  background-color: #b01414;
+  color: #fff;
+}
+
+.core .table-footer{
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+  border-top: 0px solid var(--bg-color);
+  border-bottom: 2px solid var(--bg-color);
+  border-left: 2px solid var(--bg-color);
+  border-right: 2px solid var(--bg-color);
+}
+
+.core .table-footer select{
+  height: 33px;
+}
+.core .table-footer .custom-pagination .page-link {
+  cursor: pointer;
+  color: var(--bg-color);
+  margin: 0px 2px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.core .table-footer .custom-pagination .page-link:hover {
+  background-color:  #d1d1d1 ;
+}
+
+.core .table-footer .custom-pagination .page-item.active .page-link {
+  background-color: var(--bg-color);
+  color: white;
+  border-color: var(--bg-color);
+}
+
+.card .card-head{
+  background-color:#37517e;
+}
+
+.ddd{
+  background-color: #e2e1e1;
+}
+
+
+.core-inbox .custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  border: 2px solid var(--bg-color);
+}
+
+.core-inbox .custom-table th{
+  padding: 10px; 
+  border-bottom: 1px solid var(--bg-color);
+}
+.core-inbox .custom-table tbody tr td {
+
+  /* text-align: center; */
+  border-bottom: 1px solid var(--bg-color);
+  
+}
+.core-inbox .custom-table thead{
+  padding: 15px;
+  text-align: center;
+  background-color: var(--bg-color);
+}
+
+.core-inbox .custom-table thead {
+  color: #ffffff;
+}
+
+
+.core-inbox .custom-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.action-buttons button {
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.core-inbox .action-buttons button:hover {
+  background-color: #b01414;
+  color: #fff;
+}
+
+.core-inbox .table-footer{
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+  border-top: 0px solid var(--bg-color);
+  border-bottom: 2px solid var(--bg-color);
+  border-left: 2px solid var(--bg-color);
+  border-right: 2px solid var(--bg-color);
+}
+
+.core-inbox .table-footer select{
+  height: 33px;
+}
+.core-inbox .table-footer .custom-pagination .page-link {
+  cursor: pointer;
+  color: var(--bg-color);
+  margin: 0px 2px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.core-inbox .table-footer .custom-pagination .page-link:hover {
+  background-color:  #d1d1d1 ;
+}
+
+.core-inbox .table-footer .custom-pagination .page-item.active .page-link {
+  background-color: var(--bg-color);
+  color: white;
+  border-color: var(--bg-color);
+}
+
+.view-message-content p{
+  text-indent: 100px;
+}
